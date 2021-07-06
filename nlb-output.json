@@ -1,7 +1,7 @@
 {
     "LoadBalancers": [
         {
-            "LoadBalancerArn": "arn:aws:elasticloadbalancing:eu-central-1:728610231177:loadbalancer/net/mysfits-nlb/2c0055702165112b",
+            "LoadBalancerArn": "f",
             "DNSName": "mysfits-nlb-2c0055702165112b.elb.eu-central-1.amazonaws.com",
             "CanonicalHostedZoneId": "Z3F0SRJ5LGBH90",
             "CreatedTime": "2021-07-06T07:10:30.398000+00:00",
