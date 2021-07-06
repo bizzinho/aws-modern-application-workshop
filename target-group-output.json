@@ -1,0 +1,23 @@
+{
+    "TargetGroups": [
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:eu-central-1:728610231177:targetgroup/MythicalMysfits-TargetGroup/fb794d56677c932f",
+            "TargetGroupName": "MythicalMysfits-TargetGroup",
+            "Protocol": "TCP",
+            "Port": 8080,
+            "VpcId": "vpc-07ad06674ffeeaacf",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 10,
+            "HealthCheckTimeoutSeconds": 6,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200-399"
+            },
+            "TargetType": "ip"
+        }
+    ]
+}
