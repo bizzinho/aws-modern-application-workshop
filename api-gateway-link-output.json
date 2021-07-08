@@ -1,0 +1,8 @@
+{
+    "id": "btvym8",
+    "name": "MysfitsApiVpcLink",
+    "targetArns": [
+        "arn:aws:elasticloadbalancing:eu-central-1:728610231177:loadbalancer/net/mysfits-nlb/2c0055702165112b"
+    ],
+    "status": "PENDING"
+}
